@@ -6,7 +6,7 @@
 
 	async function getResult() {
 
-		let response = await fetch(`https://numbersapi.com/${query}`);
+		let response = await fetch(`http://numbersapi.com/${query}`);
 		let text = await response.text();
 		let data = text;
 		return data;
