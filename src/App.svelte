@@ -12,7 +12,7 @@
 		return data;
 	}
 
-	function submitHandler(e) {
+	function submitHandler() {
 		result = getResult();
 		query = "";
 	}
